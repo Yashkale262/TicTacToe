@@ -1,0 +1,93 @@
+body{
+  background-color: #251D3A;
+  text-align: center;
+}
+h1{
+  color: #FF7700;
+  font-size: 6rem;
+  text-shadow: 3px 0 #006E7F;
+  margin: 15px;
+  font-family: cursive;
+}
+h3{
+  color: #FF7700;
+  font-size: 4rem;
+  text-shadow: 3px 0 #006E7F;
+  margin: 10px;
+  visibility: hidden;
+  font-family: cursive;
+}
+
+.game{
+  height: 460px;
+  width: 460px;
+  background-color: green;
+  display: none;
+  position: relative;
+
+}
+.r1{
+  position: absolute;
+  top:0px;
+}
+.r2{
+  position: absolute;
+  top:155px;
+}
+.r3{
+  position: absolute;
+  top:310px;
+}
+.b1{
+  position: absolute;
+  left: 0px;
+}
+.b2{
+  position: absolute;
+  left: 155px;
+}
+.b3{
+  position: absolute;
+  left: 310px;
+}
+
+.game button{
+  height: 150px;
+  width: 150px;
+  margin:0px 0px;
+  font-size: 5rem;
+}
+.line{
+  position: absolute;
+  background-color: red;
+  top: 225px;
+  left: 5px;
+  height: 10px;
+  width: 450px;
+  visibility: hidden;
+
+}
+.playerNames button{
+  height: 100px;
+  width: 400px;
+  border-width: 10px;
+  border-radius: 50px;
+  border-color: #F8B400;
+  background-color: #FFE61B;
+
+  font-size: 4rem;
+  color: white;
+  text-shadow: 5px 1px #F8B400;
+  font-family: cursive;
+}
+.labelAndInput{
+  font-size: 2rem;
+  font-family: cursive;
+}
+
+label{
+  color: #006E7F;
+}
+footer{
+  color: white;
+}
